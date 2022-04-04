@@ -16,7 +16,7 @@ nav{
 .logo{
     color: #ebe5db;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .nav-links{
@@ -41,11 +41,13 @@ nav{
     display: none;
     cursor: pointer;
 }
+
 .burger div{
     width: 25px;
     height: 3px;
     background-color: #ebe5db;
     margin: 5px;
+    transition: all 0.3s ease;
 }
 
 @media screen and (max-width:1024px){
@@ -91,4 +93,14 @@ nav{
         opacity: 1;
         transform: translateX(0px);
     }
+}
+
+.toggle .line1{
+    transform:rotate(-45deg) translate(-5px,6px);
+}
+.toggle .line2{
+    opacity: 0;
+}
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px,-6px);
 }
