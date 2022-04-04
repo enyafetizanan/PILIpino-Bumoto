@@ -12,11 +12,11 @@ const navSlide = () => {
             if(link.style.animation) {
                 link.style.animation = '';
             } else {
-                link.style.animation = 'navLinkFade 0.5s ease forwards ${index / 7 + 2}s';
+                link.style.animation = `navLinkFade 0.5s ease forwards ${index / 7 + 0.3}s`;
             }
         });
 
-        //Burger Anmiation
+        //Burger Animation
         burger.classList.toggle('toggle');
     });
 }
