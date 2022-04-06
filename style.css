@@ -244,3 +244,42 @@ nav{
   #r5:checked ~ .s1{
     margin-left: -80%;
   }
+
+  .container{
+     max-width: 1024px;
+     margin: auto;
+  }
+
+  .row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  .footer{
+    background-color: #ebe5db;
+    pad: 70px 0;
+  }
+
+  .footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+  }
+  .footer-col{
+    width: 25%;
+    padding: 0 15px;
+  }
+
+  .footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #354739;
+    text-decoration: none;
+    font-weight: 300;
+    color: #ebe5db;
+  }
+
+  
+ 
