@@ -266,8 +266,10 @@ nav{
     justify-content: flex-end;
     align-items: flex-end;
     min-height: 100vh;
+    bottom: 0px;
     background: #eeeeee;
   }
+
   footer{
     position: relative;
     width: 100%;
@@ -314,7 +316,7 @@ nav{
     font-size: 13px;
   }
 
-  footer .waves{
+  footer .wave{
     position: absolute;
     top: -100px;
     left: 0;
@@ -336,6 +338,20 @@ nav{
     opacity: 0.5;
     bottom: 10px;
     animation: animateWave_02 4s linear infinite;
+  }
+
+  footer .wave#wave3{
+    z-index: 1000;
+    opacity: 0.2;
+    bottom: 15px;
+    animation: animateWave 3s linear infinite;
+  }
+
+  footer .wave#wave4{
+    z-index: 999;
+    opacity: 0.7;
+    bottom: 20px;
+    animation: animateWave_02 3s linear infinite;
   }
 
   @keyframes animateWave{
