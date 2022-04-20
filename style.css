@@ -249,6 +249,7 @@ nav{
     font-family: 'Open Sans', sans-serif;
     position: absolute;
     margin-top: 100px;
+    margin-bottom: auto;
   }
 
   footer .wave{
