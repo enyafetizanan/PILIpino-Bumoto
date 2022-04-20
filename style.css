@@ -16,7 +16,6 @@ nav{
 
 .logo{
     width: 50;
-    cursor: pointer;
     letter-spacing: 1px;
     font-size: 18px;
 }
@@ -243,12 +242,13 @@ nav{
     opacity: 1;
   }
 
-  footer p{
+  footer .copyright{
     color: #ebe5db;
     text-align: center;
-    margin-top: 15px;
-    margin-bottom: 10px;
     font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    margin-top: 100px;
   }
 
   footer .wave{
@@ -323,6 +323,8 @@ nav{
   background: #ebe5db;
   padding: 100px 40px 60px;
   box-shadow: 0 15px 45px rgba(0,0,0,.1);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .container .box:before{
@@ -497,11 +499,20 @@ button{
   color: #b35417;
   font-weight: 600;
   margin-bottom: 30px;
+  font-size: 22px;
 }
 
 .contact-right h3{
   font-weight: 600;
   margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.contact-right h4{
+ font-size: 18px;
+}
+.contact-right tr{
+  font-size: 15px;
 }
 
 tr td:first-child{
